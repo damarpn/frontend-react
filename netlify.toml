@@ -1,0 +1,9 @@
+# build path
+[build]
+  publish = "build"
+  
+# routing internally.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
