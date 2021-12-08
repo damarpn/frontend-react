@@ -69,7 +69,7 @@ function App() {
         <Navbar />
 
         <Routes>
-            <Route path="/" element={ <Beranda />} />
+            <Route path="/" element={ <Beranda bookList={books} />} />
             <Route path="/manajemen-buku" element={ <ManajemenBuku bookList={books} store={storeData} update={updateData} remove={deleteData} />} />
         </Routes>
         
